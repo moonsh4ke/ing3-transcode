@@ -1,0 +1,12 @@
+1.
+
+Resolucion	CPU	Memoria (kbs)	Tiempo(HH:MM:SS)
+1920x1080	99%	408716		00:09:45
+800x600		99%	207328		00:04:08
+
+4.
+
+Dimension	CPU	Memoria (kbs)	Tiempo(HH:MM:SS)
+80x80		99	136916		00:00:34
+320x320		93	152400		00:00:59
+1280x1280	99	347552		00:06:22
