@@ -2,11 +2,6 @@
 
 #!/bin/bash
 
-usage() {
-    echo "Usage: $0 <input file> <output filename>"
-    exit 1
-}
-
 audio_cod() {
     local file="$1" # Archivo de entrada
     local output="$2" # Archivo de salida
@@ -17,5 +12,4 @@ audio_cod() {
 
 }
 
-usage
 audio_cod $1 $2
