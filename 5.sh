@@ -5,7 +5,7 @@ audio () {
        local ini=$2
        local fin=$3
        local out=$4
-       ffmpeg -i "$file" -vn -map 0 -ss "$ini" -to "$fin" -f s16le -acodec pcm_s16le "$out".raw
+       ffmpeg -i "$file" -vn -map 0 -ss "$ini" -to "$fin" -f s16le -acodec pcm_s16le "$out".dat
 }
 audio $1 $2 $3 $4
 
