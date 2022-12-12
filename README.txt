@@ -19,6 +19,19 @@ Ejemplo
 ./2.sh sample.webm 5:4 video.webm
 
 -----------------------------------------------
+3.sh Dado un vídeo de entrada, inicio en minutos:segundos, termino en minutos:segundos, y el nombre del archivo de salida, extrae un fragmento de el vídeo dado
+
+Ejecución 
+
+./3.sh archivo_de_entrada minutos:segundos minutos:segundos nombre_archivo_de_salida
+
+Ejemplo
+
+Para extraer un fragmento desde el segundo 10 al 20
+
+./3.sh sample.webm 00:10 00:20 output
+
+-----------------------------------------------
 
 4.sh - Dado un video de entrada, ancho y alto de un rectángulo, y coordinadas x e y, genera una versión recortada del video de entrada, de dimensiones
 ancho x alto en la coordenada x e y del video de origen. El archivo de salida tiene el formato crop_archivo_original
@@ -44,4 +57,16 @@ Ejemplo
 ./5.sh sample.webm 00:00:10 00:00:50 audio
 
 -----------------------------------------------
+6.sh Dado un archivo de vídeo de entrada y el nombre del archivo de salida, crea copias del archivo codificando el audio a flac/ogg/mp3
 
+Ejecución 
+
+./6.sh archivo_de_entrada nombre_archivo_de_salida
+
+Ejemplo
+
+Para extraer un fragmento desde el segundo 10 al 20
+
+./6.sh sample.webm output
+
+-----------------------------------------------
