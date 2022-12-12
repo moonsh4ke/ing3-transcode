@@ -23,13 +23,13 @@ Ejemplo
 
 Ejecución 
 
-./3.sh archivo_de_entrada minutos:segundos minutos:segundos nombre_archivo_de_salida
+./3.sh archivo_de_entrada minutos:segundos minutos:segundos archivo_de_salida
 
 Ejemplo
 
 Para extraer un fragmento desde el segundo 10 al 20
 
-./3.sh sample.webm 00:10 00:20 output
+./3.sh sample.webm 00:10 00:20 output.webm
 
 -----------------------------------------------
 
